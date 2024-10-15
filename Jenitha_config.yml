@@ -1,5 +1,15 @@
-title: Architect theme
-description: Architect is a theme for GitHub Pages.
-show_downloads: true
-google_analytics:
+# Set the theme to Architect
 theme: jekyll-theme-architect
+
+# Site settings
+title: Your Site Title
+description: A short description of your site.
+url: "https://yourusername.github.io" # replace with your GitHub Pages URL
+baseurl: "" # leave blank for user repositories
+
+# Exclude specific files or folders from the site
+exclude:
+  - README.md # optionally exclude the README from being shown on the site
+
+# Disable any downloads or buttons if the theme has such features
+show_download_buttons: false
